@@ -2,6 +2,10 @@ body {
     margin:0px;
     font-family: 'Trebuchet MS';
 }
+ul{
+    padding: 0;
+}
+
 nav {
     background-color: rgb(63, 63, 63);
     color: white;
@@ -87,4 +91,63 @@ h2 {
 .edit {
     color:rgb(0, 128, 255);
     text-decoration: none;
+}
+
+.education {
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.conection-pfp, .request-pfp {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.connections-container {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.connections-requests > li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.request-pfp {
+    border: 2px deepskyblue solid;
+    border-radius: 10px;
+}
+
+.request-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px palevioletred solid;
+    color: palevioletred;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.connections > li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.conection-pfp {
+    border-radius: 50%;
+    border: 1px black solid;
+}
+
+h3 {
+    
+    font-size: 1.5em;
 }
